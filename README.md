@@ -31,3 +31,13 @@ Ignore doc/notes.txt, but not doc/server/arch.txt
 ## doc/**/*.pdf
 
 Ignore all .pdf files in the doc/ directory and any of its subdirectories
+
+# Git Log
+
+## git log
+
+show log
+
+## git log -p -2
+
+show the patch output upto 2 commits
