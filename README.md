@@ -59,10 +59,23 @@ logs hash,user,time,commit messege
 # Working with remote
 `git remote -v ` show the urls git stored
 
-`git remote add 'name*' 'url'`
+`git remote add <name> <url>`
 
 `git fetch`  download the upadtes from remote to local
 `git pull ` fetch and merge remote to local
 
 `git remote rename <name> <name>`  
 `git remote remove <name> `
+
+
+# git Tag
+
+`git tag <version> -m 'commit message'`
+
+`git show <version>`
+
+*git does not implicly push tags on remote
+
+`git push origin <tagname>`
+
+`git push origin --tags`
