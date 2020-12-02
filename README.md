@@ -52,3 +52,17 @@ logs hash and  commit messages
 ## git log --pretty=format:"%h - %an, %ar : %s"
 
 logs hash,user,time,commit messege
+
+
+# modifing things
+
+# Working with remote
+`git remote -v ` show the urls git stored
+
+`git remote add 'name*' 'url'`
+
+`git fetch`  download the upadtes from remote to local
+`git pull ` fetch and merge remote to local
+
+`git remote rename <name> <name>`  
+`git remote remove <name> `
