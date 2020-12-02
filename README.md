@@ -53,20 +53,20 @@ logs hash and  commit messages
 
 logs hash,user,time,commit messege
 
-
 # modifing things
+------------------------
 
 # Working with remote
-`git remote -v ` show the urls git stored
+
+`git remote -v` show the urls git stored
 
 `git remote add <name> <url>`
 
 `git fetch`  download the upadtes from remote to local
-`git pull ` fetch and merge remote to local
+`git pull` fetch and merge remote to local
 
 `git remote rename <name> <name>`  
-`git remote remove <name> `
-
+`git remote remove <name>`
 
 # git Tag
 
@@ -79,3 +79,7 @@ logs hash,user,time,commit messege
 `git push origin <tagname>`
 
 `git push origin --tags`
+
+`git tag -d <tagname>` to delete from local
+
+`git push origin --delete <tagname>` from remote
