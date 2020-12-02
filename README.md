@@ -8,6 +8,7 @@
 * need to create  a .gitingore file
 * need to untrack a tracked file to ignore it git rm --cached FILENAME
 
+
 ## *.a
 
 Ignore all files with extention .a
@@ -41,3 +42,13 @@ show log
 ## git log -p -2
 
 show the patch output upto 2 commits
+
+## git log --pretty=format
+
+## git log --pretty=oneline
+
+logs hash and  commit messages
+
+## git log --pretty=format:"%h - %an, %ar : %s"
+
+logs hash,user,time,commit messege
