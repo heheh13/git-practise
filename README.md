@@ -83,3 +83,13 @@ logs hash,user,time,commit messege
 `git tag -d <tagname>` to delete from local
 
 `git push origin --delete <tagname>` from remote
+
+# Branching
+
+`git checkout -b <branchName>`
+
+`git branch -d <branchName>`
+
+`git branch --move bad-branch-name corrected-branch-name`
+
+`git push origin --delete bad-branch-name`
