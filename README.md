@@ -9,49 +9,50 @@
 * need to untrack a tracked file to ignore it git rm --cached FILENAME
 
 
-## *.a
+`*.a`
 
 Ignore all files with extention .a
-
 But do track lib.a, even though you're ignoring .a files above
 
-## !lib.a
+`!lib.a`
 
-## /TODO
+`/TODO`
 
 Only ignore the TODO file in the current directory, not subdir/TODO
 
-## build/
+`build/`
 
 Ignore all files in any directory named build
 
-## doc/*.txt
+`doc/*.txt`
 
 Ignore doc/notes.txt, but not doc/server/arch.txt
 
-## doc/**/*.pdf
+`doc/**/*.pdf`
 
 Ignore all .pdf files in the doc/ directory and any of its subdirectories
 
 # Git Log
 
-## git log
+`git log`
 
 show log
 
-## git log -p -2
+`git log -p -2`
 
 show the patch output upto 2 commits
 
-## git log --pretty=format
+#### git log --pretty=format
 
-## git log --pretty=oneline
+`git log --pretty=oneline`
 
 logs hash and  commit messages
 
-## git log --pretty=format:"%h - %an, %ar : %s"
+` git log --pretty=format:"%h - %an, %ar : %s"`
 
 logs hash,user,time,commit messege
+
+`git log --oneline --decorate --graph --all`
 
 # modifing things
 ------------------------
@@ -89,6 +90,8 @@ logs hash,user,time,commit messege
 `git checkout -b <branchName>`
 
 `git branch -d <branchName>`
+
+`git push origin --delete serverfix`
 
 `git branch --move bad-branch-name corrected-branch-name`
 
